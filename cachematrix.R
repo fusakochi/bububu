@@ -22,7 +22,7 @@ list(set = set, get = get,
      getinverse = getinverse)
 }
 ##The function below calculate the inverse of matrix which is specified by makeCacheMatrix. If the inverse is already stored,
-##it returns "getting cached data", indicating the it skips calculation, but retrieves directory from the stored value
+##it returns "getting cached data", indicating the it skips calculation, but retrieves directly from the stored value
 
 cacheSolve <- function(x, ...) {
   
